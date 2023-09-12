@@ -1,0 +1,77 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color:hsl(222, 26%, 31%);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+   
+    position: absolute;
+    border-radius: 6px; 
+ }
+
+ .main input[type='text'] {
+    width: 95%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 96%);
+    border-radius: 6px;
+    color: hsl(221, 14%, 31%);
+    border: none;
+    
+ }
+ .btn input[type='button']:hover{
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
+ }
+
+ .btn2{
+    width: 185px !important;
+    background-color:  hsl(185, 42%, 37%) !important;
+    color: white !important;
+ }
+ .btn3{
+    width: 185px !important;
+    background-color: hsl(25, 98%, 40%) !important;
+    color: white !important;
+ }
+ .del{
+    background-color: hsl(185, 42%, 37%) !important;
+    color: white !important;
+ }
+ .btn{
+    background-color:hsl(224, 36%, 15%);
+    height: 22rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+ }

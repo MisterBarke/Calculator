@@ -1,0 +1,38 @@
+body{
+    background-color:hsl(0, 0%, 90%);
+ }
+ .main input[type='text'] {
+ 
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+  
+ }
+ .btn input[type='button']{
+    background-color: hsl(45, 7%, 89%);
+    color: hsl(0, 0%, 0%);
+ }
+ span{
+    color: black; 
+}
+ .btn input[type='button']:hover{
+    background-color: hsl(0, 5%, 81%);
+    color: hsl(0, 0%, 0%);
+ }
+
+ .btn2{
+    background-color:  hsl(185, 42%, 37%) !important;
+    color: rgb(255, 255, 255) !important;
+ }
+ .btn3{
+
+    background-color: hsl(25, 99%, 27%) !important;
+    color: rgb(255, 255, 255) !important;
+ }
+ .del{ 
+    background-color:  hsl(185, 42%, 37%) !important;
+    color: white !important;
+ }
+ .btn{
+    background-color:  hsl(0, 0%, 93%);
+    
+ }
